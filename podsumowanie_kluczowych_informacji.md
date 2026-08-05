@@ -35,3 +35,10 @@ Z odpowiedzi jakościowych wynika kilka powtarzalnych tez:
 Najmocniejszy sygnał z ankiety to koncentracja na śnie jako głównym biomarkerze wspierającym resztę danych. Dobrze widziane jest rozwiązanie, które pozostaje pasywne, obiektywne i wspierające psychoterapeutę w ocenie dobrostanu, a nie zastępujące ocenę specjalisty.
 
 Badanie Liu et al. z wearable'ami może być też wzorem odniesienia do tego, jak zoperacjonalizować dane: od surowych sygnałów, przez cechy statyczne i dynamiczne, po model predykcyjny oraz walidację praktyczną.
+
+## Co wnosi dokument od dr. Slęzaka
+- Ustawia projekt w logice Frascati 2015: jako połączenie badań przemysłowych i prac rozwojowych, z obowiązkowymi pięcioma cechami B+R: nowatorskością, twórczością, niepewnością, metodycznością i odtwarzalnością.
+- Rozdziela innowację na produktową i procesową. Produkt to multimodalny system cyfrowego fenotypowania dobrostanu; proces to ciągłe, pasywne monitorowanie i automatyczne przygotowanie obrazu funkcjonowania dla psychoterapeuty.
+- Doprecyzowuje, że warto badać nie tylko smartfon-only vs smartfon + wearable, ale też sens indywidualnych profili behawioralnych zamiast progów populacyjnych.
+- Dodaje bardziej konkretne wskaźniki badawcze: co najmniej 100 uczestników, 12 tygodni obserwacji, równoległa walidacja PHQ-9 oraz ocena interpretowalności i użyteczności przez psychoterapeutów.
+- Podkreśla, że ważnym wynikiem ma być skodyfikowana wiedza: algorytm, protokół, zbiór danych i możliwość odtworzenia wyników przez inne zespoły.
