@@ -11,16 +11,16 @@ Projekt dotyczy aplikacji mobilnej do pasywnego zbierania danych ze smartfona i 
 - Komunikacja
 - Dynamika pisania
 - Analiza głosu
-- Tętno i HRV jako komponent opcjonalny
+- Dane opaski: tętno, PRV/HRV oraz — zależnie od dostępnych czujników — EDA i temperatura skóry
 
 ## Planowane badanie
 Badanie ma mieć cztery etapy:
 1. Analiza potrzeb z udziałem psychoterapeutów, w tym wywiady i doprecyzowanie wymagań funkcjonalnych oraz etycznych.
-2. Budowa prototypu aplikacji i zbieranie danych multimodalnych w obserwacji trwającej co najmniej 12 tygodni, z równoległą walidacją praktyczną. W badaniu włączymy także opaski, aby sprawdzić, czy dane zbierane wyłącznie ze smartfonów są wystarczające, czy do uzyskania lepszej jakości oceny dobrostanu trzeba dodatkowo uwzględnić opaski.
+2. Budowa prototypu aplikacji i zbieranie danych multimodalnych: pilotaż przez 4–6 tygodni, a następnie badanie rozwojowe i niezależna walidacja po 16 tygodni. Wszyscy uczestnicy noszą opaskę; modele „smartfon” i „smartfon + opaska” są porównywane na tych samych osobach i okresach.
 3. Opracowanie modeli ML łączących wiele strumieni danych i generujących interpretowalny wynik dla psychoterapeuty.
 4. Pilotaż praktyczny z psychoterapeutami, ocena użyteczności, trafności i wpływu na decyzje terapeutyczne.
 
-Jedna z kluczowych hipotez badania brzmi: dane z samych smartfonów mogą być wystarczające do użytecznej predykcji, ale wariant z opaskami może poprawić trafność, stabilność lub czułość modelu.
+Jedna z kluczowych hipotez badania brzmi: dane z samych smartfonów mogą być wystarczające do użytecznej predykcji, ale wariant z opaską może poprawić trafność, stabilność lub czułość modelu. Sześć domen smartfonowych to głos, mobilność, używanie telefonu, dynamika pisania, sen i rytm dnia oraz komunikacja.
 
 ## Wnioski z ankiety
 Ankieta pokazuje wyraźne poparcie dla sygnałów związanych ze snem. W 5 odpowiedziach wzorce snu pojawiły się we wszystkich wskazaniach top 3. Wysoko oceniono też aktywność fizyczną, mobilność, samoopis, formalną ocenę dobrostanu oraz HRV i poziom kortyzolu / melatoniny.
@@ -35,10 +35,3 @@ Z odpowiedzi jakościowych wynika kilka powtarzalnych tez:
 Najmocniejszy sygnał z ankiety to koncentracja na śnie jako głównym biomarkerze wspierającym resztę danych. Dobrze widziane jest rozwiązanie, które pozostaje pasywne, obiektywne i wspierające psychoterapeutę w ocenie dobrostanu, a nie zastępujące ocenę specjalisty.
 
 Badanie Liu et al. z wearable'ami może być też wzorem odniesienia do tego, jak zoperacjonalizować dane: od surowych sygnałów, przez cechy statyczne i dynamiczne, po model predykcyjny oraz walidację praktyczną.
-
-## Co wnosi dokument od dr. Slęzaka
-- Ustawia projekt w logice Frascati 2015: jako połączenie badań przemysłowych i prac rozwojowych, z obowiązkowymi pięcioma cechami B+R: nowatorskością, twórczością, niepewnością, metodycznością i odtwarzalnością.
-- Rozdziela innowację na produktową i procesową. Produkt to multimodalny system cyfrowego fenotypowania dobrostanu; proces to ciągłe, pasywne monitorowanie i automatyczne przygotowanie obrazu funkcjonowania dla psychoterapeuty.
-- Doprecyzowuje, że warto badać nie tylko smartfon-only vs smartfon + wearable, ale też sens indywidualnych profili behawioralnych zamiast progów populacyjnych.
-- Dodaje bardziej konkretne wskaźniki badawcze: co najmniej 100 uczestników, 12 tygodni obserwacji, równoległa walidacja PHQ-9 oraz ocena interpretowalności i użyteczności przez psychoterapeutów.
-- Podkreśla, że ważnym wynikiem ma być skodyfikowana wiedza: algorytm, protokół, zbiór danych i możliwość odtworzenia wyników przez inne zespoły.
